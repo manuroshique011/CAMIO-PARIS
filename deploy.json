@@ -1,0 +1,21 @@
+{
+  "domain": "camioparis.com",
+  "settings": {
+    "ssl": true,
+    "forceHttps": true,
+    "www": false,
+    "compression": true
+  },
+  "redirects": [
+    {
+      "from": "www.camioparis.com",
+      "to": "camioparis.com",
+      "type": 301
+    }
+  ],
+  "headers": {
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  }
+}
